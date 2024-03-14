@@ -28,6 +28,7 @@ body {
 .article-img {
   width: 100%;
   border-radius: 13px;
+  max-height: 200px;
 }
 
 .label {
@@ -47,13 +48,13 @@ body {
 }
 
 .card h2 {
- color: var(--yellow);
+  color:var(--black);
  
 }
 
 @media only screen and (max-width: 360px) {
   .card h2 {
-    color:var(--black);
+  
     font-size: 20px;
   }
 }

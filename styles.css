@@ -17,17 +17,22 @@ body {
 
 .card {
     background-color: var(--white);
-    padding: 24px;
-    max-width: 360px;
+    padding: 20px;
+    max-width: 320px;
     cursor: pointer;
     border: 1px solid var(--black);
     border-radius: 20px;
-    box-shadow: 15px 15px;
+    box-shadow: 10px 10px;
 }
 
 .article-img {
-  width: 100%;
-  border-radius: 13px;
+
+border-radius: 13px;
+display: block;
+margin: 0 auto;
+max-height: 200px;
+max-width: 320px;
+width: 100%;
 
 }
 
